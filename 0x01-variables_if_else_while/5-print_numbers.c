@@ -7,11 +7,10 @@
  */
 int main(void)
 {
-	char i;
+	int i;
 
-	for (i = 'a' ; i <= 'z' ; i++)
-		if (i != 'q' && i != 'e')
-			putchar(i);
-	putchar('\n');
+	for (i = 0 ; i < 10 ; i++)
+		printf("%d", i);
+	printf("\n");
 	return (0);
 }
